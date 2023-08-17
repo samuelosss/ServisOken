@@ -1,0 +1,10 @@
+:root {
+	--color1: rgba(230, 121, 4, 1);
+}
+
+img {
+	width: 100vh;
+	height: 60vh;
+	object-fit: fill;
+	object-position: 50% 50%;
+}

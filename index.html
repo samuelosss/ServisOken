@@ -17,6 +17,13 @@
 			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
 		/>
 		<link rel="stylesheet" href="./styles.css" />
+		<!-- Start cookieyes banner -->
+		<script
+			id="cookieyes"
+			type="text/javascript"
+			src="https://cdn-cookieyes.com/client_data/558f4a3854406ae04354501c/script.js"
+		></script>
+		<!-- End cookieyes banner -->
 	</head>
 	<body>
 		<header class="d-flex flex-wrap justify-content-center py-3">
@@ -62,13 +69,12 @@
 
 					<div class="container">
 						<div class="carousel-caption text-start">
-							<h1>Example headline.</h1>
+							<h1>Až 40% tepla!</h1>
 							<p>
-								Some representative placeholder content for the first slide of
-								the carousel.
+								Neudržovaná okna a dveře mohou způsobovat až 40% ztrátu energie.
 							</p>
 							<p>
-								<a class="btn btn-lg btn-primary" href="#">Sign up today</a>
+								<!-- <a class="btn btn-lg btn-primary" href="#">Sign up today</a> -->
 							</p>
 						</div>
 					</div>
@@ -81,12 +87,11 @@
 
 					<div class="container">
 						<div class="carousel-caption">
-							<h1>Another example headline.</h1>
+							<h1>Kdy byla údržba?</h1>
 							<p>
-								Some representative placeholder content for the second slide of
-								the carousel.
+								Každý rok bez servisu znamená větší ztrátu energie a komfortu..
 							</p>
-							<p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+							<!-- <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p> -->
 						</div>
 					</div>
 				</div>
@@ -109,13 +114,12 @@
 
 					<div class="container">
 						<div class="carousel-caption text-end">
-							<h1>One more for good measure.</h1>
+							<h1>Investujte a ušetřete!</h1>
 							<p>
-								Some representative placeholder content for the third slide of
-								this carousel.
+								Investujte teď do servisu oken a dveří a ušetřete na energii.
 							</p>
 							<p>
-								<a class="btn btn-lg btn-primary" href="#">Browse gallery</a>
+								<!-- <a class="btn btn-lg btn-primary" href="#">Browse gallery</a> -->
 							</p>
 						</div>
 					</div>
@@ -144,30 +148,37 @@
 		<!-- begin feature benefit proof section -->
 		<div class="container px-4 py-0" id="icon-grid">
 			<!-- <h2 class="pb-2 border-bottom">Icon grid</h2> -->
-			<div
-				class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5"
-			>
+			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 py-5">
 				<!-- feature items -->
 				<div class="col d-flex align-items-start">
 					<i class="icon bi bi-alarm flex-shrink-0 me-3"></i>
 
 					<div>
-						<h2 class="fw-bold mb-0 fs-4">Featured title</h2>
-						<p>Paragraph of text beneath the heading to explain the heading.</p>
+						<h2 class="fw-bold mb-0 fs-4">Servis oken a dveří</h2>
+						<p>
+							Zima je vždycky za rohem, ale my vám můžeme pomoci váš domov
+							připravit.
+						</p>
 					</div>
 				</div>
 				<div class="col d-flex align-items-start">
 					<i class="icon bi bi-cpu flex-shrink-0 me-3"></i>
 					<div>
-						<h2 class="fw-bold mb-0 fs-4">Featured title</h2>
-						<p>Paragraph of text beneath the heading to explain the heading.</p>
+						<h2 class="fw-bold mb-0 fs-4">Dobrá investice</h2>
+						<p>
+							Ušetříte na nákladech za energii, při dnešních cenách i nemalé
+							částky.
+						</p>
 					</div>
 				</div>
 				<div class="col d-flex align-items-start">
 					<i class="icon bi bi-alarm-fill flex-shrink-0 me-3"></i>
 					<div>
-						<h2 class="fw-bold mb-0 fs-4">Featured title</h2>
-						<p>Paragraph of text beneath the heading to explain the heading.</p>
+						<h2 class="fw-bold mb-0 fs-4">I několik tisíc ročně</h2>
+						<p>
+							Tolik můžete ušetřit, když si necháte profesionálně seřídit okna a
+							dveře a zabráníte tak zbytečným ztrátám.
+						</p>
 					</div>
 				</div>
 			</div>
@@ -178,16 +189,25 @@
 			<div class="row align-items-center g-lg-5 pb-4">
 				<div class="col-lg-7 text-center text-lg-start">
 					<h1 class="display-4 fw-bold lh-1 mb-3">
-						Vertically centered hero sign-up form
+						Nechte si zdarma zkontrolovat stav oken a dveří!
 					</h1>
 					<p class="col-lg-10 fs-4">
-						Below is an example form built entirely with Bootstrap’s form
-						controls. Each required form group has a validation state that can
-						be triggered by attempting to submit the form without completing it.
+						Pokud nám zanecháte kontakt, domluvíme si s Vámi schůzku. Přijedeme
+						k Vám a zkontrolujeme stav oken a dveří a naceníme potřebný servis a
+						případné náhradní díly.
 					</p>
 				</div>
 				<div class="col-md-10 mx-auto col-lg-5">
 					<form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+						<div class="form-floating mb-3">
+							<input
+								type="tel"
+								class="form-control"
+								id="floatingInput"
+								placeholder="+420 xxx xxx xxx"
+							/>
+							<label for="floatingInput">Telefon</label>
+						</div>
 						<div class="form-floating mb-3">
 							<input
 								type="email"
@@ -202,28 +222,19 @@
             <label for="floatingPassword">Password</label>
           </div> -->
 
-						<div class="form-floating mb-3">
-							<input
-								type="tel"
-								class="form-control"
-								id="floatingInput"
-								placeholder="name@example.com"
-							/>
-							<label for="floatingInput">Telefon</label>
-						</div>
-
-						<div class="checkbox mb-3">
-							<!-- <label>
+						<!-- <div class="checkbox mb-3">
+							<label>
               <input type="checkbox" value="remember-me"> Remember me
-            </label> -->
-						</div>
+            </label> 
+						 </div> -->
 
 						<button class="w-100 btn btn-lg btn-primary" type="submit">
-							Ozvěte se!
+							Odeslat
 						</button>
 						<hr class="my-4" />
 						<small class="text-body-secondary"
-							>By clicking Sign up, you agree to the terms of use.</small
+							>Odesláním formuláře prohlašujete obeznámení a souhlas s
+							<a href=""> podmínkami</a>.</small
 						>
 					</form>
 				</div>
@@ -236,19 +247,21 @@
 				<footer class="py-3 my-4">
 					<ul class="nav justify-content-center border-bottom pb-3 mb-3">
 						<li class="nav-item">
-							<a href="#" class="nav-link px-2 text-body-secondary">Home</a>
+							<a href="#" class="nav-link px-2 text-body-secondary">Domů</a>
 						</li>
-						<li class="nav-item">
+						<!-- <li class="nav-item">
 							<a href="#" class="nav-link px-2 text-body-secondary">Features</a>
-						</li>
-						<li class="nav-item">
+						</li> -->
+						<!-- <li class="nav-item">
 							<a href="#" class="nav-link px-2 text-body-secondary">Pricing</a>
+						</li> -->
+						<li class="nav-item">
+							<a href="#" class="nav-link px-2 text-body-secondary">Podmínky</a>
 						</li>
 						<li class="nav-item">
-							<a href="#" class="nav-link px-2 text-body-secondary">FAQs</a>
-						</li>
-						<li class="nav-item">
-							<a href="#" class="nav-link px-2 text-body-secondary">About</a>
+							<a href="tel:" class="nav-link px-2 text-body-secondary"
+								>+420 777 360 558</a
+							>
 						</li>
 					</ul>
 					<p class="text-center text-body-secondary">

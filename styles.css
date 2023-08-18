@@ -1,10 +1,35 @@
 :root {
-	--color1: rgba(230, 121, 4, 1);
+	--color1: rgba(0, 0, 0, 1);
+	--color2: rgba(255, 255, 255, 0.7);
+}
+
+body {
+	color: var(--color1);
 }
 
 img {
-	width: 100vh;
-	height: 60vh;
-	object-fit: fill;
+	width: 100%;
+	height: auto;
+	object-fit: cover;
 	object-position: 50% 50%;
+}
+
+.icon {
+	font-size: 2rem;
+	color: var(--color1);
+}
+
+h1,
+.h1 {
+	font-size: calc(10vw);
+}
+
+.carousel-caption h1 {
+	color: var(--color1);
+	background: var(--color2);
+	border-radius: calc(1rem - 10px);
+}
+
+.carousel-caption p {
+	font-size: calc(4.7vw);
 }
